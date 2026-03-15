@@ -40,7 +40,7 @@ multiplication and division operations.
 
 Use gcc compiler to compile the program:
 
-gcc * .c
+gcc main.c apc.c -o calc
 
 ## Usage
 
@@ -49,8 +49,7 @@ Run the program using command line arguments:
 ./a.out <operand1> <operator> <operand2>
 
 Example:
-
-./a.out 123456789 + 987654321
+./calc 123456789 + 987654321
 
 Output:
 
